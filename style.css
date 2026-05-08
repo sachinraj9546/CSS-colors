@@ -1,0 +1,49 @@
+body{
+  background-color: #faa536;
+  color: #000000;
+  
+}
+
+article{
+  text-decoration: underline;
+}
+
+.head{
+  color: blue;
+}
+
+.head#bglime{
+  background-color: lime;
+  font-size: 36px;
+}
+
+p{
+  color: white;
+  font-size: 24px;
+}
+
+p#para{
+color: green;
+font-size: 20px;
+}
+
+p:nth-of-type(3) span{
+ color: black;
+ font-size: xx-large;
+}
+
+p:nth-of-type(4) span a {
+  background-color: yellow;
+}
+
+p:nth-of-type(5) span a {
+  background-color: blue;
+}
+
+ol li:nth-of-type(2) {
+  color:blue;
+}
+
+ol li:nth-of-type(3) {
+  color:red;
+}
